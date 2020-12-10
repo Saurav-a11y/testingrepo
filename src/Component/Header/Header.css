@@ -1,0 +1,34 @@
+.header {
+  max-height: 70px;
+  background-color: #2b7de9;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.option {
+  margin-right: 10px;
+}
+.glyphicon {
+  color: #ffffff;
+  font-size: 15px;
+}
+.text {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 15px;
+}
+.glyphicon-user {
+  font-size: 18px;
+  padding: 7px;
+
+  border-radius: 50%;
+  background-color: purple;
+}
+.low-option {
+  margin-top: 10px;
+  align-self: flex-end;
+}

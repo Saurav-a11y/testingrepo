@@ -1,0 +1,25 @@
+.home-page {
+  display: flex;
+  justify-content: space-between;
+}
+.right-pannel,
+.left-pannel {
+  width: 48%;
+  height: 100vh;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.resize-width-pannel {
+  width: 80vw;
+  height: 100vh;
+  background-color: gray;
+  border-radius: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.resize-fullwidth-pannel {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  border-radius: 10px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
